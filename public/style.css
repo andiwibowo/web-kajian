@@ -1008,7 +1008,7 @@ textarea:focus ~ .highlight {
       .map-area #googleMap {
         height: 400px; } }
 
-/* Search bar
+/* Search bar */
 #search-wrapper {
   display: inline-block;
   position: relative; }
@@ -1101,7 +1101,7 @@ textarea:focus ~ .highlight {
     #search-wrapper #close-icon.closing:after {
       -webkit-animation: cross-2-out 0.25s linear 0.2s forwards;
       animation: cross-2-out 0.25s linear 0.2s forwards; }
- */
+
 @-webkit-keyframes lens-out {
   0% {
     -webkit-transform: rotate(45deg) scaleX(1);
