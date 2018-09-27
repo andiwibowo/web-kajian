@@ -2037,7 +2037,7 @@ body {
 }
 
 .main-header {
-  min-height: 55px;
+  min-height: 40px;
   width: 100%;
   background: #ffffff;
   position: fixed;
@@ -2256,7 +2256,7 @@ body {
 .footer {
   border-top: 1px solid #eee;
   padding: 15px;
-  background: #ffffff;
+  background: #181717;
 }
 .footer .container-fluid {
   display: flex;
