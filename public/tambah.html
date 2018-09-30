@@ -138,22 +138,22 @@
 						<li class="nav-item">
 							<a href="index.html">
 								<i class="la la-dashboard"></i>
-								<p>Info Kajian</p>						
+								<p>Info Kajian</p>								
 							</a>
 						</li>
 						<li class="nav-item">
 							<a href="ustadz.html">
 								<i class="la la-graduation-cap"></i>
-								<p>Info Ustadz</p>							
+								<p>Info Ustadz</p>								
 							</a>
 						</li>
-						<li class="nav-item active">
+						<li class="nav-item">
 							<a href="jadwal.html">
 								<i class="la la-user"></i>
 								<p>Kajian Saya</p>							
 							</a>	
-						</li>				
-						<li class="nav-item">
+						</li>		
+						<li class="nav-item active">
 							<a href="tambah.html">
 								<i class="la la-comment"></i>
 								<p>Tambah Kajian</p>								
@@ -164,10 +164,40 @@
 			</div>
 			<div class="main-panel">
 				<div class="content">
-					<div class="container-fluid">
-						<div class="row">
-						</div>				
-					</div>
+						<div class="container-fluid">
+								<div class="row">
+								  <div clas="col-sm-10" id="firstSection">
+									<form class="border p-2 mb-2 " id="form">
+									  <div class="form-group">
+										<label>Kajian</label>
+										<input type="text" class="form-control" id="judul" placeholder="Judul Kajian">           
+									  </div>
+									  <div class="form-group">
+										<label>Ustadz</label>
+										<input type="text" class="form-control" id="ustadz" placeholder="Ustadz">           
+									  </div>
+									  <div class="form-group">
+										<label>Lokasi</label>
+										<input type="text" class="form-control" id="lokasi" placeholder="Lokasi">           
+									  </div>  
+						  
+									  <div class="form-group"> <!-- Date input -->
+										<label class="control-label" for="tanggal">Tanggal</label>
+										<input class="form-control" id="tanggal" name="tanggal" placeholder="YYYY/MM/DD" type="text"/>
+									  </div>          
+									  <div class="form-group">
+											<label>Kategori</label>
+											<input type="text" class="form-control" id="kategori" placeholder="Kategori">           
+									  </div>  
+						  
+									  <button type="submit" id="button1" class="btn btn-primary">Tambah Kajian</button>
+									  <button style="display: none" id="button2" class="btn btn-success">Update Kajian</button>
+									  <button style="display: none" id="button3" class="btn btn-danger">Cancel</button>
+									</form>
+								  </div>
+								 
+								</div>
+							  </div>
 				</div>
 				<!-- Footer -->
 				<footer>
